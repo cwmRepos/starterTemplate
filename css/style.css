@@ -1,0 +1,141 @@
+/*-----------------------------------------------------------------------------
+Layout Style Sheet (for version 4 browsers) 
+
+$Rev$:	Revision of last commit 
+$Author$: Author of last commit 
+$Date$:	Date of last commit			
+email:     	info@jppdesigns.co.uk 
+website:   	http://www.jppdesigns.co.uk/ 
+comment:   	JPPdesigns Template
+				 							
+-----------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 767px) {
+p {font-size:13px; line-height:18px;}
+ul li {font-size:13px;}
+h1 {font-size:24px; margin-top:0px;}
+h2 {font-size:22px; margin-top:0px; margin-bottom:5px; font-weight:550;}
+h3 {font-size:14px; margin-top:5px; font-weight:600;}
+h4 {font-size:12px;}
+}
+
+@media only screen and (min-width: 767px) {
+p {font-size:14px; line-height:24px;}
+ul li {font-size:14px;}
+h1 {font-size:22px; margin-top:0px;}
+h2 {font-size:20px; margin-top:0px; margin-bottom:5px; font-weight:550;}
+h3 {font-size:16px; margin-top:5px; font-weight:600;}
+h4 {font-size:12px;}
+}
+
+@media only screen and (min-width: 992px) {
+p {font-size:14px; line-height:24px;}
+ul li {font-size:14px;}
+h1 {font-size:24px; margin-top:0px;}
+h2 {font-size:22px; margin-top:0px; margin-bottom:5px; font-weight:550;}
+h3 {font-size:16px; margin-top:5px; font-weight:600;}
+h4 {font-size:14px;}
+}
+
+@media only screen and (min-width: 1200px) {
+p {font-size:14px; line-height:24px;}
+ul li {font-size:14px;}
+h1 {font-size:28px; margin-top:0px;}
+h2 {font-size:24px; margin-top:0px; font-weight:550;}
+h3 {font-size:16px; margin-top:5px; font-weight:600;}
+h4 {font-size:14px;}
+}
+
+ul.disc {list-style-type:disc; margin-bottom:0px;}
+ul.disc li {margin-left:20px;}
+
+/* HEADER SECTION -------------------------------------------------------------------------------------------------------------------------------------------------*/	
+
+.navbar {border-radius:0px; margin-bottom:0px;}
+.navbar-default {background-color:#FFF;}
+.navbar-header {width:30%;}
+.navbar-brand {display:block; height:auto; padding:10px;}
+.navbar-brand span {display:none;}
+
+@media only screen and (max-width: 767px) {
+.navbar-header {width:100%;}
+.navbar-brand {width:250px;}
+.navbar-toggle {margin-right:-15px; margin-top:20px; border-radius:0px;}
+
+.navbar-default .navbar-nav>li>a {font-size:14px; color:#073070;}
+.navbar-default .navbar-nav>li>a:hover { text-decoration:underline;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {font-size:14px;}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:last-child {border-bottom:1px #ccc solid;}
+}
+
+@media only screen and (min-width: 767px) {
+.navbar-brand {width:290px;}
+.navbar-default .navbar-right {margin-top:0px;}
+.navbar-default .navbar-nav>li>a {font-size:12px; padding:10px 12px; color:#073070;}
+.navbar-default .navbar-nav>li>a:hover { text-decoration:underline;}
+.navbar-default .navbar-nav>li:last-child>a {padding-right:0px;}
+}
+
+@media only screen and (min-width: 992px) {
+.navbar-brand {width:300px;}
+.navbar-default .navbar-right {margin-top:2px;}
+.navbar-default .navbar-nav>li>a {font-size:14px; padding:10px 15px; color:#073070;}
+.navbar-default .navbar-nav>li>a:hover { text-decoration:underline;}
+.navbar-default .navbar-nav>li:last-child>a {padding-right:0px;}
+}
+
+@media only screen and (min-width: 1200px) {
+.navbar-brand {width:350px;}
+.navbar-default .navbar-right {margin-top:5px;}
+.navbar-default .navbar-nav>li>a {font-size:14px; padding:10px 20px; color:#073070;}
+.navbar-default .navbar-nav>li>a:hover { text-decoration:underline; color:#073070;}
+.navbar-default .navbar-nav>li:last-child>a {padding-right:0px;}
+}
+
+/* MAIN SECTION -------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* FOOTER SECTION -------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/* OVERRIDES SECTION -------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+img {
+	border:0;
+	margin:auto;
+	padding:0;
+	vertical-align:middle;
+}
+
+::selection { background: #000; color:#FFF; text-shadow:none;}
+::-moz-selection { background:#000; color:#FFF; text-shadow:none;}
+
+.npadding {padding:0px !important;}
+.npleft {padding-left:0px !important;}
+.npright {padding-right:0px !important;}
+.nptop {padding-top:0px !important;}
+.npbottom {padding-bottom:0px !important;}
+
+.nmargin {margin:0px !important;}
+.nmleft {margin-left:0px !important;}
+.nmright {margin-right:0px !important;}
+.nmtop {margin-top:0px !important;}
+.nmbottom {margin-bottom:0px !important;}​
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+@media only screen and (min-width: 767px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
